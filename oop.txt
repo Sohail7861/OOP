@@ -1,0 +1,103 @@
+OOP with C++
+
+--------------------------------------------------------------------------------------
+
+*Procedural Prog Lang : everything written in functions or procedures.
+*OOP Lang : written in the form of classes and objects.
+
+--------------------------------------------------------------------------------------
+
+I - CLASS AND OBJECTS
+* class = template for object
+* object = instance of a class
+ex class=Fruit, objects=apple,banana,orange
+* class -> contains members
+* members = objects,attributes,methods(f(x)s)
+ex object=car, attribs=weight,color,methods drive(),brake(),horn() etc.. f(x)s
+
+--------------------------------------------------------------------------------------
+
+II - METHODS
+* methods = functions belongs to classes
+* methods written in two ways -> 1. Inside Class Defination   | + 
+                                 2. Outside Class Defination  | params
+
+--------------------------------------------------------------------------------------
+
+III - CONSTRUCTORS
+* Constructor = special method called automatically when object of a class is created
+* To create a constructor, use the same name as the class, followed by parentheses ()
+
+--------------------------------------------------------------------------------------
+
+IV - ACCESS SPECIFIERS
+* Access specifiers define how members (attributes & methods) of a class are accessed.
+* 3 Types : 
+    1. public - members are accessible from outside the class
+    2. private - members cannot be accessed (or viewed) from outside the class
+    3. protected - members cannot be accessed from outside the class, however, they can
+       be accessed in inherited classes.
+* private used in Encapsulation
+--------------------------------------------------------------------------------------
+
+V - Encapsulation
+* Encapsulation is to make sure that "sensitive" data is hidden from users.
+* To achieve this, you must declare class variables/attributes as private.
+* If you want others to read or modify the value of a private member, 
+  you can provide public get and set methods.
+
+* It is considered good practice to declare your class attributes as private.
+* Encapsulation ensures better control of your data, because you (or others) can 
+  change one part of the code without affecting other parts.
+* Increased security of data.
+
+--------------------------------------------------------------------------------------
+
+VI - INHERITANCE
+* Inheriting properties of One class to other.
+* i.e from  BASE(PARENT/SUPER) CLASS  ---->  DERIVERD(CHILD/SUB) CLASS
+* To inherit from a class, use the : symbol.
+* Use = It is useful for code reusability: reuse attributes and methods of an 
+        existing class when you create a new class.  
+* Types - Single Level, Multiple, Multilevel & Hybrid Inheritance.
+* Single level : PARENT ---> CHILD
+* Multi level  : GRANDPARENT ---> PARENT ---> CHILD
+* Multiple     : MOTHER -----   
+                            |
+                            | ---> CHILD        
+                            |
+                 FATHER -----  
+* Hierarchical : 1 PARENT ---> MULTIPLE CHILDREN
+* Hybrid       : Mulitple + Hierarchical Inheritance
+
+--------------------------------------------------------------------------------------
+
+VII - POLYMORPHISM
+* Polymorphism means "many forms".
+* It occurs when we have many classes that are related to each other by inheritance.
+* Inheritance lets us inherit attributes and METHODS from another class.
+                                                |
+                            ---------------------
+                            |
+* Polymorphism uses those METHODS to perform different tasks. 
+  This allows us to perform a single action in different ways.
+* Use :: It is useful for code reusability: reuse attributes and methods of an
+         existing class when you create a new class.
+
+--------------------------------------------------------------------------------------
+
+VIII - ABSTRACTION
+* Abstraction means displaying only essential information and hiding the details.
+* It refers to providing only essential information about the data to the outside
+  world, hiding the background details or implementation. 
+* Types:
+    1. Data abstraction – This type only shows the required information about the data
+       and hides the unnecessary data.
+
+    2. Control Abstraction – This type only shows the required information about the
+       implementation and hides unnecessary information.
+
+--------------------------------------------------------------------------------------
+
+* CLASS DOES NOT CONSUME MEMORY BUT OBJECTS WHEN INITIALIZED DOES.
+* REFER INTERVIEWBIT FOR INTERVIEW QUESTIONS, ADVANCED TOPICS AND MCQs.
